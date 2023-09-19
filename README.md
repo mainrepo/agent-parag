@@ -1,4 +1,4 @@
-# Agent Parag - A chat based interface for RAG
+# Agent Parag - A chat based interface for [nlp-raga](https://github.com/mainrepo/nlp-raga)
 The focus of this next-js build is to craft an *interface for backend services* based on ***GPT & LLM*** using ***R***etrieval ***A***ugmented ***G***eneration (**RAG**). This interface can use any backend service like ***[nlp-raga](https://github.com/mainrepo/nlp-raga)*** as specified in [Vital info](#vital-info) section.
 
 ## <ins>User Guidelines</ins>
@@ -24,7 +24,7 @@ poetry run test-srv
 yarn run dev
 ```
 
-## <ins>Vital info</ins>
+## <ins>Vital Info</ins>
 1. This project is an *interface* to the services based on ***GPT or LLM***. This project *calls* a standard set of end-points (unified API specs). These end-points are implemented in all the **NLP** handling services ***avilable in this repository***. So before running this project any such service like *[nlp-raga](https://github.com/mainrepo/nlp-raga)* must be up & running. The other ***nlp-**** services can also be used, though only one at a time.
 
 2. The project uses yarn (package.json) for dependency management.
