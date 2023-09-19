@@ -15,7 +15,7 @@ yarn install
 You can also use the ***npm*** as appropriate. 
 
 ### <ins>Running</ins>
-A backend service like ***nlp-raga*** is required as mentioned in the [Vital info](#vital-info) section.
+A backend service like ***nlp-raga*** is required as mentioned in the [Vital Info](#vital-info) section.
 ```shell
 # The nlp-raga service must be run before running this interface
 poetry run test-srv
