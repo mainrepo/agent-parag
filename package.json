@@ -1,0 +1,28 @@
+{
+  "name": "agent-parag",
+  "version": "1.0.0",
+  "description": "The interface to GPT and LLM models and APIs",
+  "author": "Gaurav J",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "axios": "^1.5.0",
+    "next": "^13.4.19",
+    "postcss": "^8.4.29",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.5.8",
+    "@types/react": "18.2.21",
+    "typescript": "5.2.2"
+  }
+}
