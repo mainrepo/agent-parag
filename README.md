@@ -25,7 +25,7 @@ yarn run dev
 ```
 
 ## <ins>Vital Info</ins>
-1. This project is an *interface* to the services based on ***GPT or LLM***. This project *calls* a standard set of end-points (unified API specs). These end-points are implemented in all the **NLP** handling services ***avilable in this repository***. So before running this project any such service like *[nlp-raga](https://github.com/mainrepo/nlp-raga)* must be up & running. The other ***nlp-**** services can also be used, though only one at a time.
+1. This project is an *interface* to the services based on ***GPT or LLM***. This project *calls* a standard set of end-points (unified API specs). These end-points are implemented in all the **NLP** handling services ***avilable in this repository***. So before running this project, any such service like *[nlp-raga](https://github.com/mainrepo/nlp-raga)* must be up & running. The other ***nlp-**** services can also be used, though only one at a time.
 
 2. The project uses yarn (package.json) for dependency management.
 
